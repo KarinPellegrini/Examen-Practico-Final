@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 65px 165px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+#navegador ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#navegador li{
+    padding-right: 10px;
+}
+
+#navegador a{
+    color: #242E52;
+
+}
+
+.get_started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 44px;
+
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 13.1806px;
+    line-height: 19px;
+    color:white;
+}
+
+
+
+.primeras2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 230px;
+    padding-right: 146px;
+    padding-bottom: 96px;
+
+}
+
+.primera_seccion h2{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 66px;
+    color:#232C50;
+
+
+}
+
+.primera_seccion{
+    display: flex;
+    flex-direction: column;
+    width: 439px;
+}
+
+.primera_seccion p{
+    display: flex;
+    width: 350px;
+    font-size: 16.35px;
+    line-height: 157.1%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-weight: 600;
+}
+
+.primera_seccion h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    padding-bottom: 8px;
+}
+
+.cuarta_seccion_text p{
+    font-weight: 500;
+    font-size: 16.3px;
+    line-height: 25.52px;
+    color: #B3B2B7;
+    padding-bottom: 15px;
+}
+
+.cuarta_seccion_text h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom: 18px;
+    padding-top: 6px;
+}
+
+.cuarta_seccion{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    padding-right: 110px;
+}
+
+
+.numeracion div{
+    padding: 10px 25px;
+    width: 69px;
+    background: #F3603B;
+    border-radius: 30px;
+    margin-bottom: 155px;
+    padding-right: 23px;
+}
+
+.numeracion p{
+    font-weight: 700;
+    font-size: 16.3px;
+    line-height: 23px;
+    color:white;
+}
+.personas_principal h3{
+    font-weight: 700;
+    font-size: 39.2143px;
+    line-height: 61px;
+    color: #242E53;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 109px;
+}
+
+
+.personas article{
+    border: 1px transparent;
+    background-color: #FAFAFA;
+    width: 445px;
+    height: 219px;
+    position: relative;
+}
+
+.personas h5{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16.0714px;
+    color: #3F4868;
+    padding-top: 56px;
+}
+
+.personas p{
+    color: #B9B9C1;
+    text-align: center;
+    padding-top: 21px;
+}
+
+.personas{
+    display: flex;
+    justify-content: center;
+}
+
+.personas_principal div{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.circlePic{
+    width: 70px;
+    height: 70px;
+    bottom: 180px;
+    position: absolute;
+    left: 190px;
+}
+
+.personas_principal{
+    padding-bottom: 180px;
+}
+
+.footer_primera_parte{
+    padding: 64px 165px;
+    background-color: #F3603B;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_primera_parte p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    width: 438px;
+    height: 96px;
+    color: white;
+}
+
+.footer_primera_parte div{
+    padding-top: 30px;
+}
+
+.footer_primera_parte a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 44px;
+
+    background: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 13.1806px;
+    line-height: 19px;
+    color:#F3603B;    
+}
+
+.footer_segunda_parte{
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-around;
+    padding: 67.26px 170.88px;
+}
+
+.lista_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 392.73px;
+    height: 141.14px;
+}
+
+
+.lista_footer a{
+    color: white;
+}
+
+
